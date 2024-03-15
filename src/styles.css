@@ -1,0 +1,81 @@
+body{
+  box-sizing: border-box;
+  background-color: #0B2434;
+}
+#root{
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  width: 600px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  font-family: Karla;
+  font-size: 40px;
+  margin: 0;
+}
+
+.instructions {
+  font-family: Inter;
+  font-weight: 500;
+  margin-top: 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 35px 50px;
+}
+.dies{
+  width: 45.84px;
+  height: 45.84px;
+  border-radius: 3.81px;
+  font-family: Karla;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  box-shadow: 0px 9px 18px -8px rgba(66, 68, 90, 1);
+  border: none;
+  cursor: pointer;
+}
+.move{
+  font-family: Karla;
+  font-size: 19px;
+  font-weight: 500;
+  color: orange;
+}
+.hMove{
+  font-family: Karla;
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(255, 106, 0);
+}
+.roll{
+  width: 130.16px;
+  height: 35.84px;
+  background-color: #5035FF;
+  font-family: Karla;
+  font-size: 16.5px;
+  color: white;
+  border: none;
+  font-weight: 700;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.roll:hover{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
