@@ -11,5 +11,5 @@ Designed and developed a Tenzies game application using HTML, CSS, JavaScript, a
     2. npm install
     3. npm run dev and play with the local dev environment.
     4. npm run build.
-    5. npm run ssr. You can disable javascript in your browser,    to  verify if it can still render.
+    5. npm run ssr. You can disable javascript in your browser, to  verify if it can still render.
 
